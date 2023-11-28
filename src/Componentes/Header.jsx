@@ -3,7 +3,7 @@ export default function Header(){
       <div>
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Music Favorite</a>
+            <a class="navbar-brand" href="#">Canzoni Preferite</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -13,10 +13,10 @@ export default function Header(){
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Destaque</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Favoritas</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link disabled" aria-disabled="true">Disabled</a>
