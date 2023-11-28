@@ -1,0 +1,102 @@
+body {
+    background: #f2d0d1;
+  }
+  
+  .button-red{
+    color: whitesmoke;
+    background-color: #A90623;
+    font-family: Atma, cursive;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+  }
+  
+  .home-nome{
+    color: #A90623;
+    font-family: Atma, cursive;
+    text-shadow: 2px 2px 3px #ffffff
+  }
+
+  .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 7
+    
+    0vh;
+    text-align: center;
+  }
+  
+  .nome:hover{
+    padding: 5px;
+    margin: 0;
+    font-size: 15px;
+    font-family:'Paprika', sans-serif;
+    white-space: normal;
+  }
+
+  .nome{
+    padding: 5px;
+    font-size: 15px;
+    font-family:'Paprika', sans-serif;
+    color: #A90623;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+ .name{
+  color: #A90623;
+  font-family:'Paprika', sans-serif;
+ }
+  .nomee{
+    color: #A90623;
+    font-family: Atma, cursive;
+  }
+
+  .produto-card{
+    background-color: #FFFF;
+    
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+  }
+
+    .imagem{
+    height: 350px;
+    width: 290px;
+    
+  }
+
+  .imagem-home{
+    height: 500px;
+    width: 1500px;
+    margin-left: 190px;
+  }
+  
+  .home-card{
+      background-color: #FFFF;
+    
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+  }
+  
+    .image{
+      height: 400px;
+      width: 400px;
+    }
+
+    .img{
+    height: 90px;
+    width: 100px;
+    margin-left: 10px;
+  }
+  
