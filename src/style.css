@@ -59,26 +59,35 @@ body {
     background-color: #FFFF;
     
     display: inline-block;
-    width: 400px;
-    height: 550px;
+    width: 600px;
+    height: 500px;
     padding: 5px;
     margin: 20px;
     overflow: hidden;
   }
 
   .produto-cardd{
-    background-color: #FFFF;
+    background-color: #f2d0d1;
     
     display: inline-block;
     width: 600px;
-    height: 400px;
+    height: 600px;
     padding: 5px;
     margin: 20px;
     overflow: hidden;
   }
 
+  .card-title{
+  color: #A90623;
+  font-family: Atma, cursive;
+  }
+
+  .card-subtitle{
+    color: #A90623;
+    font-family: Atma, cursive;
+  }
     .imagem{
-    height: 350px;
+    height: 300px;
     width: 290px;
     
   }
