@@ -1,7 +1,11 @@
-import Header from "./Componentes/header";
+import {Link} from "react-router-dom";
+import Header from "./Componentes/Header";
 export default function Home(){
     return(
-        <Header/>
+        <div>
+            <Header/>
+
         <h1>PTAC 2 - PROJETO FINAL</h1>
+        </div>
      );
 }
