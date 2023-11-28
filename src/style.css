@@ -55,6 +55,16 @@ body {
     font-family: Atma, cursive;
   }
 
+  .navbar-brand{
+    color: #A90623;
+    font-family: Atma, cursive;
+  }
+
+  .nav-item{
+    color: #A90623;
+    font-family: 'Paprika', sans-serif;
+  }
+
   .produto-card{
     background-color: #FFFF;
     

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import Header from "./Componentes/Header";
 
 export default function Cadastrar () {
 
@@ -33,6 +34,7 @@ export default function Cadastrar () {
     
   return (
     <div class="container">
+      <Header/>
     <Link to="/">Voltar para a Home</Link>
     <h1 class="nomee"> Cadastrar Músicas</h1>
     <form class="produto-cardd" onSubmit={salvar}>
