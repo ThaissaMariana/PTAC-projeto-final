@@ -32,11 +32,6 @@ export default function Cadastrar () {
         setMostrarMensagem(true);
         setLinkmusic("");
     };
-
-    const remover = (id) => {
-      const listaFiltrada = lista.filter((ativ) => ativ.id !== id);
-       setLista(listaFiltrada);
-     }
  
  <div class="container"></div>
   return (
@@ -86,7 +81,6 @@ export default function Cadastrar () {
           <p class="nomee">Artista: {ativ.artista}</p>
           <p class="nomee">Visualizações: {ativ.visualizacao}</p>
           <p class="nomee">Curtidas: {ativ.curtidas}</p>
-          <button class="button-red" onClick={() => remover(ativ.id)}>Remover</button>
       </div>
       
         ))}  
