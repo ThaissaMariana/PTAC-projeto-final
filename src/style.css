@@ -53,6 +53,7 @@ body {
   .nomee{
     color: #A90623;
     font-family: Atma, cursive;
+    text-align: center;
   }
 
   .navbar-brand{
@@ -84,6 +85,7 @@ body {
     padding: 5px;
     margin: 20px;
     overflow: hidden;
+    text-align: center;
   }
 
   .card-title{
@@ -129,3 +131,16 @@ body {
     margin-left: 10px;
   }
   
+  .nomeio{
+    text-align: center;
+  }
+
+  .produto-card{
+    text-align: center;
+  }
+
+  .imagem{
+    height: 50px;
+    width: 50px;
+    
+  }
