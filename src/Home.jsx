@@ -8,8 +8,8 @@ export default function Home(){
     return (
         <div>
             <Header/>
-            {listinhamusic.map((videozinho)=>
-                <Card videozinho ={videozinho}/>
+            {listinhamusic.map((listaVideos)=>
+                <Card listinhamusic ={listaVideos}/>
             )};
             
         </div>

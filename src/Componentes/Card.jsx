@@ -1,18 +1,21 @@
-export default function Card({videozinho}){
+export default function Card({listaVideos }){
     return(
 
         <div>
-            <h1>{atividade.atividade}</h1>
+
             <div className="card">
             <iframe
             width="500"
             height="500"
             scr={ 
-                "https://www.youtube.com/embed/" + videozinho.linkmusic.slice(17)}
+                "https://www.youtube.com/embed/" + listaVideos.linkmusic.slice(17)}
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-white; encrypted-media;">
                 </iframe>
-
+                <p>{listaVideos.setMusica}</p>
+                <p>{listaVideos.setArtista}</p>
+                <p>{listaVideos.setVisualizacao}</p>
+                <p>{listaVideos.setCurtidas}</p>
          </div>
         </div>
     );
