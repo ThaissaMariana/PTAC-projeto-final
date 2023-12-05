@@ -12,10 +12,10 @@ export default function Header() {
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="Home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Destaque</a>
+                  <a class="nav-link" href="Cadastro">Cadastrar</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Favoritos</a>
