@@ -157,10 +157,11 @@ body {
     
     display: inline-block;
     width: 400px;
-    height: 400px;
+    height: 490px;
     padding: 5px;
     margin: 20px;
     overflow: hidden;
+    text-align: center;
   }
 
   .namee{
@@ -171,6 +172,17 @@ body {
 
   
   .produto-carde{
+    background-color: #FFFF;
+    
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .cardee{
     background-color: #FFFF;
     
     display: inline-block;

@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 export default function Card({listinhamusic}){
     return(
         listinhamusic.map((videozinho) => (
-             <div className="card">
+             <div className="cardee">
             <div class="produto-carde" key={videozinho.id}>
     
               <Link to={`/detalhe/${videozinho.id}`}>
-                <p>{videozinho.atividade}</p>
+                <p>{videozinho.musica}</p>
               </Link>  
             
-              <p class="namee">Música: {videozinho.musica}</p>
+              
               <iframe
             width="300"
             height="300"

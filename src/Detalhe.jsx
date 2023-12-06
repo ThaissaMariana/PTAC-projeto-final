@@ -4,16 +4,20 @@ export default function Detalhe(){
     const { id } = useParams();
     const lista = JSON.parse( localStorage.getItem("Lista"));
 
-    const atividade = lista.filter((objeto) => {
+    const musica = lista.filter((objeto) => {
         if(objeto.id == id){
             return objeto;
         }
         return null;
     })
 
-    console.log( atividade[0] );
+
 
     return(
-        <Card atividade={atividade[0]}/>
-    );
+       musica.map((musica)=>
+      <div>
+        <p></p>
+      </div>
+
+    ));
 }
