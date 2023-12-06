@@ -12,7 +12,7 @@ export default function Cadastrar () {
   const [musica, setMusica] = useState("");
   const [artista, setArtista] = useState("");
   const [visualizacao, setVisualizacao] = useState("");
-  const [mostrarMensagem, setMostrarMensagem] = useState(false);
+ 
   const [curtidas, setCurtidas] = useState("")
   const [linkmusic, setLinkmusic] = useState("");
 
@@ -29,7 +29,7 @@ export default function Cadastrar () {
         setArtista("");
         setVisualizacao("");
         setCurtidas("");
-        setMostrarMensagem(true);
+       
         setLinkmusic("");
     };
  
@@ -70,20 +70,6 @@ export default function Cadastrar () {
       </div>
 </div>
     </form>
-        {lista.map((ativ) => (
-        <div class="produto-card" key={ativ.id}>
-
-          <Link to={'/detalhe/${ativ.id}'}>
-            <p>{ativ.atividade}</p>
-          </Link>  
-          <img src={ativ.linkmusic} alt="" class="imagem" />
-          <p class="nomee">Música: {ativ.musica}</p>
-          <p class="nomee">Artista: {ativ.artista}</p>
-          <p class="nomee">Visualizações: {ativ.visualizacao}</p>
-          <p class="nomee">Curtidas: {ativ.curtidas}</p>
-      </div>
-      
-        ))}  
         </div>                                                                                                                     
   ); 
 

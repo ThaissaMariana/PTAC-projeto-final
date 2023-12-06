@@ -2,15 +2,13 @@ import {Link} from "react-router-dom";
 import Header from "./Componentes/Header";
 import Card from "./Componentes/Card";
 
-const listinhamusic = JSON.parse(localStorage.getItem ("listaVideos")) || [];
-
 export default function Home(){
+    const listinhamusic = JSON.parse(localStorage.getItem ("Lista")) || [];
+
     return (
         <div>
             <Header/>
-            {listinhamusic.map((listaVideos)=>
-                <Card listinhamusic ={listaVideos}/>
-            )};
+                <Card listinhamusic ={listinhamusic}/>
             
         </div>
     );
