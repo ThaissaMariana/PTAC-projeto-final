@@ -7,10 +7,10 @@ export default function Card({listinhamusic}){
             <div class="produto-carde" key={videozinho.id}>
                
               <Link to={`/detalhe/${videozinho.id}`}>
-                <p class="letrinhas"> {videozinho.musica}</p>
+                <p class="letrinhas">Música: {videozinho.musica}</p>
               </Link>  
             
-              <p class="namee">Música: {videozinho.musica}</p>
+              
 
               <iframe
             width="300"

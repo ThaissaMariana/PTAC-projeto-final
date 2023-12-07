@@ -16,7 +16,20 @@ export default function Detalhe(){
     return(
        musica.map((musica)=>
       <div>
-        <p></p>
+        <div className="cardee">
+         <iframe
+            width="300"
+            height="300"
+            src={ 
+                "https://www.youtube.com/embed/" + videozinho.linkmusic.slice(17)}
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-white; encrypted-media;">
+                </iframe>
+                <p>{musica.Musica}</p>
+                <p>{musica.Artista}</p>
+                <p>{musica.Visualizacao}</p>
+                <p>{musica.Curtidas}</p>
+          </div>
       </div>
 
     ));

@@ -21,7 +21,7 @@ export default function Header() {
                   <a class="nav-link" href="#">Destaque</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Favoritos</a> 
+                  <a class="nav-link" href="#">Detalhe</a> 
                 </li>
               </ul>
             </div>
