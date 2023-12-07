@@ -18,7 +18,7 @@ export default function Header() {
                   <a class="nav-link" href="Cadastro">Cadastrar</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Destaque</a>
+                  <a class="nav-link" href="Destaque">Destaque</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Detalhe</a> 
