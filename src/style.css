@@ -193,3 +193,14 @@ body {
     overflow: hidden;
     text-align: center;
   }
+
+  .letrinhas{
+    padding: 5px;
+    font-size: 15px;
+    font-family:'Paprika', sans-serif;
+    color: #A90623;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
