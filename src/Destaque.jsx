@@ -10,8 +10,9 @@ export default function Destaque(){
     return (
         <div>
             <Header/>
-            
+                <h2 class="destaquenome">Canzoni Preferite</h2>
                 <Card listinhamusic ={destaqueapp}/>
+                <footer class="rodape">  © Canzoni Preferite 2023</footer>
             
         </div>
     );

@@ -71,6 +71,7 @@ export default function Cadastrar () {
       </div>
 </div>
     </form>
+    <footer class="rodape">  © Canzoni Preferite 2023</footer>
         </div>                                                                                                                     
   ); 
 

@@ -10,6 +10,7 @@ export default function Home(){
         <div>
             <Header/>
                 <Card listinhamusic ={listinhamusic}/>
+                <footer class="rodape">  © Canzoni Preferite 2023</footer>
             
         </div>
     );

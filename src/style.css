@@ -118,6 +118,7 @@ body {
     padding: 5px;
     margin: 20px;
     overflow: hidden;
+    text-align: center;
   }
   
     .image{
@@ -203,4 +204,31 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .destaquenome{
+    color: #A90623;
+    font-family: Atma, cursive;
+    text-align: center;
+  }
+
+  .Card{
+    background-color: #FFFF;
+    
+    display: inline-block;
+    width: 400px;
+    height: 460px;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .rodape{
+    bottom: 0;
+    position: fixed;
+    width: 110%;
+    background-color: #ffb3c8;
+    font-family: Atma, cursive;
+    color:#A90623;
   }

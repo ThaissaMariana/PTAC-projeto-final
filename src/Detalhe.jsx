@@ -32,6 +32,7 @@ export default function Detalhe(){
                 <p class="letrinhas">{musica.visualizacao}</p>
                 <p class="letrinhas">{musica.curtidas}</p>
           </div>
+          <footer class="rodape">  © Canzoni Preferite 2023</footer>
       </div>
 
     ));
