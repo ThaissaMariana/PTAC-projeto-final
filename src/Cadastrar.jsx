@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Header from "./Componentes/Header";
 import "./style.css";
 
@@ -18,18 +18,20 @@ export default function Cadastrar () {
 
   useEffect(() => { localStorage.setItem("Lista", JSON.stringify(lista)) }, [lista]);
 
-    const salvar =(e) =>{
+    const navigate = useNavigate();
+
+    const salvar = async(e) =>{
         e.preventDefault();
-        setLista([...lista, {
+       await setLista([...lista, {
                 musica: musica, artista: artista, visualizacao: visualizacao, curtidas: curtidas, linkmusic: linkmusic, 
                 id: id 
               }]);
         setId(id + 1);
+        navigate("/");
         setMusica("");
         setArtista("");
         setVisualizacao("");
         setCurtidas("");
-       
         setLinkmusic("");
     };
  
