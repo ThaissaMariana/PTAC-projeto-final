@@ -12,7 +12,6 @@ export default function Cadastrar () {
   const [musica, setMusica] = useState("");
   const [artista, setArtista] = useState("");
   const [visualizacao, setVisualizacao] = useState("");
- 
   const [curtidas, setCurtidas] = useState("")
   const [linkmusic, setLinkmusic] = useState("");
 
