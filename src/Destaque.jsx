@@ -4,8 +4,8 @@ import Header from "./Componentes/Header";
 import Card from "./Componentes/Card";
 
 export default function Destaque(){
-    const listinhamusic = JSON.parse(localStorage.getItem ("Lista")).slice(-3);
-    const destaqueapp = listinhamusic.slice(-3)
+    const listinhamusic = JSON.parse(localStorage.getItem ("Lista")).slice(-4);
+    const destaqueapp = listinhamusic.slice(-4)
 
     return (
         <div>
